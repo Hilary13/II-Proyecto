@@ -138,23 +138,37 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Celda.cpp" />
-    <ClCompile Include="Celda15.cpp" />
-    <ClCompile Include="Celda6.cpp" />
-    <ClCompile Include="Celda9.cpp" />
-    <ClCompile Include="CeldaCompuesta.cpp" />
+    <ClCompile Include="Archivos.cpp" />
+    <ClCompile Include="Campo6.cpp" />
+    <ClCompile Include="Controladora.cpp" />
+    <ClCompile Include="Ficha.cpp" />
+    <ClCompile Include="Interfaz.cpp" />
+    <ClCompile Include="IteradorLista.cpp" />
+    <ClCompile Include="Juego.cpp" />
     <ClCompile Include="Jugador.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Reglas.cpp" />
+    <ClCompile Include="Movimiento.cpp" />
+    <ClCompile Include="Partida.cpp" />
+    <ClCompile Include="Tablero.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Celda.h" />
-    <ClInclude Include="Celda15.h" />
-    <ClInclude Include="Celda6.h" />
-    <ClInclude Include="Celda9.h" />
-    <ClInclude Include="CeldaCompuesta.h" />
+    <ClInclude Include="Archivos.h" />
+    <ClInclude Include="Arreglo.h" />
+    <ClInclude Include="Campo6.h" />
+    <ClInclude Include="Coleccion.h" />
+    <ClInclude Include="Controladora.h" />
+    <ClInclude Include="Ficha.h" />
+    <ClInclude Include="Interfaz.h" />
+    <ClInclude Include="Iterador.h" />
+    <ClInclude Include="IteradorArreglo.h" />
+    <ClInclude Include="IteradorLista.h" />
+    <ClInclude Include="Juego.h" />
     <ClInclude Include="Jugador.h" />
-    <ClInclude Include="Reglas.h" />
+    <ClInclude Include="Lista.h" />
+    <ClInclude Include="Movimiento.h" />
+    <ClInclude Include="Nodo.h" />
+    <ClInclude Include="Partida.h" />
+    <ClInclude Include="Tablero.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
